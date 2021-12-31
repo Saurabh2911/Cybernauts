@@ -9,7 +9,7 @@ var pass = document.signup.password;
 // Check for null entry fill by user
  if (name.value.length <= 0) {  
 	 alert("Please enter your Name");  
-	 uname.focus();  
+	 name.focus();  
 	 return false;  
  }  
 
