@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Page</title>
+</head>
+<body>
+<div class="container" id="swap">
+	<div class="text-section">
+		<h2>Welcome Back!</h2>
+		<p>To keep connected with us please login with your personal info</p>
+		<button class="diff" id="signIn"> <a class="differ" href="signin.html"> Sign In</a></button>	
+    </div>
+	<div class="form-section ">
+		<form method="post" action="connect.php" name="signup">
+			<h1>Create Account</h1>
+			<div class="social-icons">
+				<a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+				<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="&#xf007; Name" name="name"/> 
+			<input type="email" placeholder="&#xf0e0; Email" name="email"/>
+			<input type="password" placeholder="&#xf007; Password" name="password"/>
+			<button onclick="validate_signup()">Sign Up</button>
+		</form>
+	</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
